@@ -17,16 +17,13 @@ Diese kopiert ein shell script in den entsprechenden Ordner
 Aktuell noch keine und das nächste Ziel ist es die basic funktionalität der WP Seite zu kopieren. Auch das Design soll überarbeitet werden.
 
 
-# Install
+# Build on Raspi
 
-cd ~/Documents/juso-next/
-git clone https://github.com/Fohwa/juso-website.git
-OR git pull
-
-cd juso-website
-npm i next
+cd ~/Documents/juso-next/juso-website
+git pull
 
 npm run build
 
+sudo rm -r /var/www/html/next/*
 sudo mv ~/Documents/juso-next/juso-website/out/* /var/www/html/next
 
