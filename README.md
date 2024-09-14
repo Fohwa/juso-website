@@ -19,7 +19,14 @@ Aktuell noch keine und das nächste Ziel ist es die basic funktionalität der WP
 
 # Install
 
-clone repository with 'git clone (link)'
-install next 'npm i next'
-'npm run build'
-and copy files to next folder under nginx
+cd ~/Documents/juso-next/
+git clone https://github.com/Fohwa/juso-website.git
+OR git pull
+
+cd juso-website
+npm i next
+
+npm run build
+
+sudo mv ~/Documents/juso-next/juso-website/out/* /var/www/html/next
+
