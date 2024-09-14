@@ -16,4 +16,10 @@ Diese kopiert ein shell script in den entsprechenden Ordner
 ## Funktionalität
 Aktuell noch keine und das nächste Ziel ist es die basic funktionalität der WP Seite zu kopieren. Auch das Design soll überarbeitet werden.
 
-Das ist ein Test XPS
+
+# Install
+
+clone repository with 'git clone (link)'
+install next 'npm i next'
+'npm run build'
+and copy files to next folder under nginx
